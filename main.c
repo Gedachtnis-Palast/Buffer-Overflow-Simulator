@@ -1,6 +1,8 @@
 #include <stdio.h>
+#include "memoryMapping.h"
 
-int main(){
-    printf("Hallo");
+int main()
+{
+    initMemoryMap();
     return 0;
 }
